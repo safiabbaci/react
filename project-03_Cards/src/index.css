@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: .5s;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+  gap: 35px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  padding: 23px;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 340px;
+  width: 270px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 23px;
+}
+
+.card .top .logo {
+  height: 40px;
+  width: 40px;
+  background-color: #222;
+  border: none;
+  border-radius: 50%;
+}
+
+.card .top button {
+  border: none;
+  background-color: antiquewhite;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.card .center {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 9px;
+  height: 48%;
+  width: 80%;
+  color: black;
+  margin-top: 8px;
+}
+
+.center h3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.center span {
+  font-weight: 400;
+  color: #8b8b8b;
+  font-size: 10px;
+}
+
+.center h2 {
+  font-size: 20px;
+}
+
+.center .h4s {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+}
+
+.h4s h4 {
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #dddddd;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  width: 100%;
+  padding: 23px;
+}
+
+.border {
+  border-top: 1px solid #d7d7d7;
+  width: 80%;
+}
+
+.bottom h3 {
+  font-size: 16px;
+}
+
+.bottom div p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.bottom button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
