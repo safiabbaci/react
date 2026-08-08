@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+
+/* Using TailwindCSS in React */
+/* 1. npm install tailwindcss @tailwindcss/vite */
+/* 2. import tailwindcss from '@tailwindcss/vite' */
+/* 3. tailwindcss() */
+/* 4. @import "tailwindcss"; */
