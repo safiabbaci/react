@@ -21,9 +21,9 @@ const App = () => {
         {count}
       </h1>
       <div className="flex items-center justify-between mt-5">
-        <button onClick={increaseCount} className="mx-3 uppercase tracking-[3px] px-8 py-5 text-white rounded-xl cursor-pointer border-2">Increase</button>
-        <button onClick={decreaseCount} className="mx-3 uppercase tracking-[3px] px-8 py-5 text-white rounded-xl cursor-pointer border-2">Decrease</button>
-        <button onClick={resetCount} className="mx-3 uppercase tracking-[3px] px-8 py-5 text-white rounded-xl cursor-pointer border-2">Reset</button>
+        <button onClick={increaseCount} className="mx-3 uppercase tracking-[3px] px-8 py-5 text-white rounded-xl cursor-pointer border-2 hover:text-black hover:bg-white duration-500">Increase</button>
+        <button onClick={decreaseCount} className="mx-3 uppercase tracking-[3px] px-8 py-5 text-white rounded-xl cursor-pointer border-2 hover:text-black hover:bg-white duration-500">Decrease</button>
+        <button onClick={resetCount} className="mx-3 uppercase tracking-[3px] px-8 py-5 text-white rounded-xl cursor-pointer border-2 hover:text-black hover:bg-white duration-500">Reset</button>
       </div>
     </div>
   );
